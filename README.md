@@ -2,6 +2,8 @@
 
 A complete **Machine Learning Regression Project** focused on predicting housing prices using custom-built regression algorithms implemented from scratch using **Python, NumPy, Pandas, and Matplotlib**.
 
+📌 This project was developed as the **1st Minor Project during my internship at Uplyx Solution**.
+
 This project analyzes a complex real-estate dataset containing **10,000 synthetic property records** and applies advanced regression techniques without relying on high-level ML libraries like `sklearn` for core implementations.
 
 ---
