@@ -1,0 +1,16 @@
+Title: Simple Linear Regression Analysis on Housing Data
+
+Introduction:
+This project focuses on predicting housing prices using Simple Linear Regression implemented from scratch. The goal is to understand the relationship between the area of a house and its price. The dataset used is synthetically generated and includes real-world challenges such as missing values and outliers.
+
+Data Preprocessing:
+The dataset contained missing values in the area feature, which were handled using two techniques: mean imputation and median imputation. Mean imputation replaces missing values with the average of the data, while median imputation uses the central value, making it more robust to outliers. Additionally, outliers in the price variable were detected and removed using the Interquartile Range (IQR) method. This improved the quality of the dataset and reduced noise.
+
+Model Implementation:
+A Simple Linear Regression model was implemented using gradient descent without using any external machine learning libraries. The model learns the relationship between area and price by minimizing a cost function. The parameters (slope and intercept) are updated iteratively until convergence is achieved.
+
+Results and Analysis:
+The model showed good convergence as the cost function decreased rapidly and stabilized. The regression line fit the data well, and residual plots indicated that errors were randomly distributed, confirming the validity of the model. Confidence intervals were also plotted to show the uncertainty in predictions.
+
+Conclusion:
+This project demonstrates the importance of data preprocessing in improving model performance. It also highlights how machine learning models can be implemented from scratch using mathematical concepts. The results confirm that Simple Linear Regression is effective for modeling linear relationships in data.
